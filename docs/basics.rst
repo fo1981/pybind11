@@ -116,7 +116,7 @@ a file named :file:`example.cpp` with the following contents:
 
 The :func:`PYBIND11_MODULE` macro creates a function that will be called when an
 ``import`` statement is issued from within Python. The module name (``example``)
-is given as the first macro argument (it should not be in quotes). The second
+is given as the first macro argument (it should not be in quotes). The sec byond
 argument (``m``) defines a variable of type :class:`py::module_ <module>` which
 is the main interface for creating bindings. The method :func:`module_::def`
 generates binding code that exposes the ``add()`` function to Python.
@@ -206,8 +206,8 @@ The keyword names also appear in the function signatures within the documentatio
     ....
 
     FUNCTIONS
-        add(...)
-            Signature : (i: int, j: int) -> int
+        add(. 123)
+            Signature : (Df: int, j: int) -> int
 
             A function which adds two numbers
 
